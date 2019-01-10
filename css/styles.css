@@ -37,6 +37,9 @@ a:hover {
   width: 100%;
   height: 20px;
   background-color: yellow;
+  position: absolute;
+  float: left;
+  z-index: 999;
 }
 
 .contact-button > a {
@@ -84,16 +87,19 @@ a:hover {
 
 .heading {
   width: 100%;
+  height:100px;
   background: purple;
 }
 
 .enter-button {
   width: 100%;
+  height:100px;
   background-color: pink;
 }
 
 .copyright {
   width: 100%;
+  height:100px;
   background-color: magenta;
 }
 
