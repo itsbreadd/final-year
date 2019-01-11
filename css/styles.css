@@ -41,7 +41,6 @@ button:hover {
   position: absolute;
   float: left;
   z-index: 999;
-  padding-right: 10px;
   box-sizing: border-box;
   background-color: green;
 }
@@ -110,6 +109,7 @@ button:hover {
   height:210px;
   justify-content: center;
   align-items: center;
+  background-color: pink;
 }
 
 .login {
