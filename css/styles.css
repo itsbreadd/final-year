@@ -32,6 +32,7 @@ button:hover {
   background-size: cover;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  position: relative;
 }
 
 .contact-button {
@@ -40,9 +41,9 @@ button:hover {
   position: absolute;
   float: left;
   z-index: 999;
-  margin-top: 10px;
   padding-right: 10px;
   box-sizing: border-box;
+  background-color: green;
 }
 
 .contact-button > a {
