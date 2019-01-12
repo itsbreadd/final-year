@@ -6,7 +6,7 @@
 html, body {
   padding: 0;
   margin:0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   font-family: 'cool';
 }
@@ -27,7 +27,7 @@ button:hover {
 
 .background-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: url(../img/startpage.jpg) no-repeat center center fixed;
   background-size: cover;
   text-align: center;
