@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+  <html lang="en">
+    <head>
+      <title>Welcome!</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"> <!--RESIZES CONTENT FOR MOBILE-->
+      <link rel="icon" href="img/brad.ico"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+<body>
+<header>
+  <div class="nav-img">
+    <img src="img/WritingLogo.png" alt="logo">
+  </div>
+
+  <div class="open-nav">
+    <button class="open-nav-button"><img class="downarrow" src="img/down.png" alt="downarrow"></button>
+  </div>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html" class="startpage">StartPage</a></li>
+      <li><a href="education.html" class="education">Education</a></li>
+      <li><a href="interests.html" class="interests">Interests</a></li>
+      <li><a href="contact.html" class="contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="main-body-container">
+  <div class="main-body">
+    <div class="register-form-container">
+
+      <div class="form-container">
+        <div class="title">
+          <h2>Register</h2>
+        </div>
+        <form action="action/register-action.php" method="POST">
+          <label for="username">Username</label>
+          <input type="text" name="uname" placeholder="Username" required>
+
+          <label for="firstname">First Name</label>
+          <input type="text" name="firstname" placeholder="First Name" required>
+
+          <label for="lastname">Last Name</label>
+          <input type="text" name="lastname" placeholder="Last Name.." required>
+
+          <label for="password">Password</label>
+          <input type="password" name="pword" placeholder="Password" required>
+
+          <label for="email">Email</label>
+          <input type="text" name="email" placeholder="Email" required>
+
+          <input type="submit" name="submit" class="submit">
+        </form>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<!--jQuery First-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>

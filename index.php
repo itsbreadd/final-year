@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE HTML>
   <html lang="en">
 
@@ -34,16 +38,16 @@
     </div>
 
     <div class="login-flex">
-      <form class="login">
-        <label for="user-name"><b>Username:</b></label>
-        <input type="text" placeholder="Enter Username" name="user-name" required>
+      <form action="action/login-action.php" method="POST" class="login">
+        <label><b>Username:</b></label>
+        <input type="text" placeholder="Username/ Email" name="uname" required>
 
-        <label for="password"><b>Password:</b></label>
-        <input type="password" placeholder="Enter Password" name="password" required>
+        <label><b>Password:</b></label>
+        <input type="password" placeholder="Enter Password" name="pword" required>
 
         <div class="submit-container">
           <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
-        	<button type="submit">Login</button>
+        	<button type="submit" name ="submit">Login</button>
         </div>
 
         <div class="message">

@@ -1,3 +1,7 @@
+:root {
+  --border-lines: 1px solid rgba(0, 0, 0, .3);
+}
+
 @font-face {
     font-family: 'cool';
     src: url('../fonts/coolveticarg.ttf');
@@ -171,6 +175,149 @@ button {
   font-family: 'cool';
 }
 
+/*NAVIGATION*/
+header {
+  width: 100%;
+  height: 125px;
+  text-align: center;
+  position: absolute;
+  z-index: 999;
+}
+
+.nav-img {
+  width: 100%;
+  background: url(../img/headerimg.jpg);
+  background-size: cover;
+  background-position: 0% 5%;
+  background-repeat: no-repeat;
+}
+
+.nav-img > img {
+  height: 100px;
+}
+
+.open-nav {
+  width: 100%;
+  height: 25px;
+}
+
+.open-nav > button {
+  width: 100%;
+  height: 25px;
+  cursor: pointer;
+  background-color: #4dc176;
+  border-radius: 10px;
+  transition-duration: .5s;
+}
+
+.open-nav > button:hover {
+  border-radius: 0px;
+}
+
+.downarrow {
+  height: 10px;
+  transition-duration: .5s;
+}
+
+.downarrow.flip {
+  transform: rotate(180deg);
+}
+
+nav {
+  overflow: visible;
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  background-color: #4dc176;
+  z-index: 999;
+  display: none;
+}
+
+nav > ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li > a {
+  display: block;
+  transition-duration: 1s;
+  color: white;
+  font-size: 18px;
+}
+
+li > a:hover {
+  width: 100%;
+  border-radius: 10px;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/*NAVIGATION END*/
+
+.main-body-container {
+  width: 100%;
+  height: auto;
+  padding-top: 125px;
+  box-sizing: border-box;
+}
+
+.main-body {
+  width: 100%;
+  height: auto;
+  background-color: blue;
+  display: flex;
+  padding: 10px;
+}
+
+.register-form-container {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: green;
+  border-bottom: var(--border-lines);
+  padding-left: 10px;
+}
+
+.form-container {
+  background-color: yellow;
+  border-radius: 20px;
+  height: 380px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.form-container > form > label {
+ width: 30%;
+ box-sizing: border-box;
+}
+
+.form-container > form > input {
+  border-radius: 15px;
+  height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit {
+  margin-top: 20px;
+}
 
 
 
