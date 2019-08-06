@@ -100,13 +100,17 @@ header {
 
 .main-image-flex > a > img { /*REQUIRED TO KEEP IMAGE RIGHT SIZE PT.2*/
   height: 100%;
+  transition-duration: 1.5s;
+}
+
+.main-image-flex > a > img:hover {
+  transform: scale(1.2);
 }
 
 .heading {
   width: 100%;
   height:40px;
   line-height: 40px;
-  background-color: purple;
 }
 
 .login-text {
@@ -121,7 +125,6 @@ header {
   height:210px;
   justify-content: center;
   align-items: center;
-  background-color: pink;
 }
 
 .submit-container {
