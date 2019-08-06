@@ -1,5 +1,8 @@
 <?php
 session_start();
+
+//constants
+define("MY_NAME", "Bradley Archer");
 ?>
 
 <!DOCTYPE HTML>
@@ -61,7 +64,7 @@ session_start();
     </div>
 
     <div class="copyright">
-      <p>© <?php echo date('Y'); ?> Bradley Archer</p>
+      <p><?php echo "&copy;" . " " . date('Y') . " " . MY_NAME; ?></p>
     </div>
   </div>
 </div>
