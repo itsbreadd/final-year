@@ -61,7 +61,7 @@ session_start();
     </div>
 
     <div class="copyright">
-      <p>© 2018 Bradley Archer</p>
+      <p>© <?php echo date('Y'); ?> Bradley Archer</p>
     </div>
   </div>
 </div>
